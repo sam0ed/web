@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/*DESKTOP*/
+@media (min-width: 992px){
+    .col-lg-4{
+        float:left;
+        /* border: 1px solid maroon; */
+        
+    }
+
+    .col-lg-4{
+        width: 33.3333%;
+    }
+
+    #header{
+        text-align: center;
+        margin: 20px 0 40px 0;
+    }
+
+}
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6, .col-md-1{
+        float:left;
+        /* border: 1px solid maroon; */
+    }
+
+    .col-md-6{
+        width: 50%;
+    }
+
+    .col-md-1{
+        width: 100%;
+    }
+
+    #header{
+        text-align: center;
+        margin: 20px 0 20px 0;
+    }
+
+}
+/*MOBILE*/
+@media (max-width: 767px){
+    .col-sm-1{
+        float:left;
+        /* border: 1px solid maroon; */
+    }
+    .col-sm-1{
+        width: 100%;
+    }
+
+    #header{
+        text-align: center;
+        margin: 20px 0 20px 0;
+    }
+
+    
+}
+
+
+
+
+#my-navbar{
+    background-color: gray;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo, #logo:hover{
+    color:black;
+    font-size: 2em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 0.5px solid black;
+    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+#drop-menu{
+    border: 0;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+#drop-menu a{
+    border: 1px solid black;
+    color: black;
+}
+#menu-list {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:visited a:link{
+    color: black;
+}
+
+#text-zone{
+    background-color: gray;
+    margin: 20px 2em 2em;
+    padding: 8px 20px;
+}
+/*
+
+#header{
+    text-align: center;
+    font-size: 175%;
+}
+
+.sections{
+    margin: 15px 0 15px 0px;
+    padding: 0 2%;
+}
+
+.background-div{
+    background-color: gray;
+    border: 1px solid black;
+    
+}
+
+
+.title-region{
+    position: relative;
+    width: 30%;
+    left: 70%;
+    
+    text-align: center;
+    font-size: 125%;
+    font-weight: 500;
+
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+}
+#title1{
+    background-color: pink;
+    
+}
+
+#title2{
+    background-color: maroon;
+    color: azure;
+}
+
+#title3{
+    background-color: darkcyan;
+    color: blue;
+}
+
+.text{
+    padding: 4% 2% 4% 2%;
+    font-size: 100%;
+}
+
+
+
+*/
